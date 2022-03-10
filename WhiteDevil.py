@@ -82,23 +82,6 @@ def logo():
 
 	os.system("clear")
 
-	print("""\x1b[0;32m╔════════════════════════════════════════════╗
-
-\x1b[0;33m║ OWNER OF TOOL [🔥 WHITE DEVI 🔥].  ║
-
-\x1b[0;33m║       #TOOL AUTHOR WHITE DEVIL. ║
-
-\x1b[0;33m╚════════════════════════════════════════════╝
-
-\x1b[0;33m ---------------------------------------------
-
-\x1b[0;33m╔════════════════════════════════════════════╗
-
-\x1b[0;33m║#FACEBOOK : NAME [ Aftab Ahmad ].       ║
-
-\x1b[0;33m║#GITHUB : https://github.com/WhiteDevil300   ║
-
-\x1b[0;33m╚════════════════════════════════════════════╝""")
 
 CorrectUsername = "IWDX"
 CorrectPassword = "IWDX"
