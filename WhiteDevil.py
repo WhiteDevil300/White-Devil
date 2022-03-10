@@ -82,6 +82,23 @@ def logo():
 
 	os.system("clear")
 
+	print("""\x1b[0;32m╔════════════════════════════════════════════╗
+
+\x1b[0;33m║ OWNER OF TOOL [🔥 WHITE DEVI 🔥].  ║
+
+\x1b[0;33m║       #TOOL AUTHOR WHITE DEVIL. ║
+
+\x1b[0;33m╚════════════════════════════════════════════╝
+
+\x1b[0;33m ---------------------------------------------
+
+\x1b[0;33m╔════════════════════════════════════════════╗
+
+\x1b[0;33m║#FACEBOOK : NAME [ Aftab Ahmad ].       ║
+
+\x1b[0;33m║#GITHUB : https://github.com/WhiteDevil300   ║
+
+\x1b[0;33m╚════════════════════════════════════════════╝""")
 
 CorrectUsername = "IWDX"
 CorrectPassword = "IWDX"
@@ -101,13 +118,12 @@ def login():
 
 		exit("Internet Connection Error")
 
-	try:
 
 		token = open("login.txt", "r")
 
 		menu()
 
-	except KeyError, IOError:
+	
 
 		token = raw_input("[?] Enter Token : ")
 
@@ -215,7 +231,6 @@ def menu():
 
 			menu()
 
-		elif cek == "1":
 
 			dirs = os.listdir("OK")
 
@@ -223,6 +238,9 @@ def menu():
 
 			for file in dirs:
 
+				print("[•]  "+file)
+
+			try:
 
 				file = raw_input("\n\033[1;96m[\033[1;93m+\033[1;96m] File Name : ")
 
@@ -488,7 +506,7 @@ def cek_ttl_cp(uid, pw):
 
 			open("CP/%s.txt"%(tanggal),"a").write(" + %s|%s|%s %s %s\n"%(uid, pw, day, month, year))
 
-	except KeyError , IOError:
+
 
 		day = (" ")
 
