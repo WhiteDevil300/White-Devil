@@ -223,7 +223,6 @@ def menu():
 
 			for file in dirs:
 
-			try:
 
 				file = raw_input("\n\033[1;96m[\033[1;93m+\033[1;96m] File Name : ")
 
